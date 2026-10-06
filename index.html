@@ -3,22 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Jeremy Poh | MSc Finance Graduate</title>
+  <meta name="description" content="Jeremy Poh: MSc Finance graduate with experience in venture capital, corporate finance and ESG advisory." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="top">
     <div class="container">
-      <h1>Jeremy Bossku</h1>
-      <p>Web Developer & Creative Thinker</p>
+      <h1>Jeremy Poh</h1>
+      <p class="tagline">MSc Finance graduate in corporate finance, venture capital and M&amp;A, based in London.</p>
+
+      <dl class="key-facts">
+        <div><dt>Deal range reviewed</dt><dd>$1M to $20M</dd></div>
+        <div><dt>Pitches that gained traction</dt><dd>35%</dd></div>
+        <div><dt>KPMG graduate return offer</dt><dd>Received</dd></div>
+      </dl>
+
+      <div class="header-actions">
+        <a href="Jeremy_Poh_CV_2025.pdf" class="button button-gold" download>Download CV (PDF)</a>
+        <a href="#contact" class="button button-outline">Get in touch</a>
+      </div>
     </div>
   </header>
 
-  <nav class="navbar">
+  <nav class="navbar" aria-label="Main">
     <div class="container">
       <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#activities">Academic Activities</a></li>
+        <li><a href="#skills">Skills &amp; Interests</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -26,59 +44,156 @@
 
   <main class="container">
     <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        Welcome to my portfolio! I'm a passionate web developer with a love for creating
-        beautiful, functional websites. I enjoy learning new technologies and solving
-        complex problems through creative coding solutions. When I'm not coding, you can
-        find me exploring new design trends and contributing to open-source projects.
+      <h2>Profile</h2>
+      <p class="lead">
+        I completed an MSc in Finance at Bayes Business School after a BA in Politics, Philosophy
+        and Economics at the University of Manchester. My work so far spans venture capital deal
+        analysis at a London family office and ESG advisory at KPMG, backed by hands-on
+        valuation, M&amp;A and LBO modelling.
       </p>
     </section>
 
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Apr 2024 to Nov 2024</p>
+          <p class="entry-place">London, United Kingdom</p>
+        </div>
+        <div class="entry-body">
+          <h3>Corporate Finance Intern</h3>
+          <p class="entry-org">UCEA Family Office Group</p>
+          <ul>
+            <li>Focused on venture capital ($1M to $20M) deals in the technology and energy sectors, covering industry analysis, company analysis, valuation modelling, due diligence, and sourcing and originating co-investment opportunities.</li>
+            <li>Extracted leverage ratios of start-ups, including Debt-to-EBITDA, Debt-to-Equity and Interest Coverage, from financial statements to run solvency analysis supporting the investment committee's capital deployment decisions.</li>
+            <li>Performed due diligence on the value proposition of a Series C Agri-Tech start-up building a microbiome IP portfolio to improve soil health. Interviewed key internal stakeholders and identified weaknesses in the expansion plan, where significant capex spending was hindering liquidity.</li>
+            <li>Summarised key deal metrics into one-page memoranda and pitch book presentations for technology and energy companies, used at investor luncheons to build interest.</li>
+            <li>Pitched technology and energy deals to potential investors, achieving a 35% success rate in gaining traction.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Aug 2020 to Oct 2020</p>
+          <p class="entry-place">Kuala Lumpur, Malaysia</p>
+        </div>
+        <div class="entry-body">
+          <h3>Summer Intern, ESG Advisory</h3>
+          <p class="entry-org">KPMG</p>
+          <ul>
+            <li>Assisted with the valuation of ESG-related risk factors in relation to the credit and liquidity risks of clients.</li>
+            <li>Investigated the links between corporate governance structures and stock price liquidity, concluding that firms with well-structured governance have narrower bid-ask spreads.</li>
+            <li>Supported associates by building a Corporate Governance monitoring framework covering Fairness, Transparency, Risk Management, Responsibility and Accountability, which assisted regulatory assessments.</li>
+            <li>Obtained a return offer for a full-time graduate position.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Sep 2022 to Jan 2024</p>
+          <p class="entry-place">London, United Kingdom</p>
+        </div>
+        <div class="entry-body">
+          <h3>MSc Finance</h3>
+          <p class="entry-org">Bayes Business School</p>
+          <ul>
+            <li>Core modules: Theory of Finance, Advanced Corporate Finance and Valuation, Statistics in Finance, Financial Reporting, Financial Modelling, Asset Management, Private Equity.</li>
+            <li>Former member of the M&amp;A and Private Equity Society and the Banking &amp; Finance Society.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Sep 2019 to Jul 2022</p>
+          <p class="entry-place">Manchester, United Kingdom</p>
+        </div>
+        <div class="entry-body">
+          <h3>BA Politics, Philosophy and Economics</h3>
+          <p class="entry-org">University of Manchester</p>
+          <ul>
+            <li>Core modules: Dissertation in Economics (Brain Drain: Human Capital Flight from Developed to Developing Economies), Advanced Microeconomics, Advanced Macroeconomics, Money, Banking and Financial Markets, Topics in PPE, International Political Economy.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="activities" class="section">
+      <h2>Academic Activities</h2>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Apr 2023 to May 2023</p>
+        </div>
+        <div class="entry-body">
+          <h3>Bayes M&amp;A Society: M&amp;A of LVMH and Tiffany &amp; Co</h3>
+          <ul>
+            <li>Built discounted cash flow models to project the enterprise values of LVMH and Tiffany.</li>
+            <li>Researched and analysed key M&amp;A deals, applying accretion/dilution analysis to value synergies by comparing pre- and post-transaction earnings per share.</li>
+            <li>Deepened understanding of how the income statement, balance sheet and cash flow statement connect by assessing various three-statement models.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">May 2023 to Jun 2023</p>
+        </div>
+        <div class="entry-body">
+          <h3>Private Equity Project: LBO of Morrisons by Clayton, Dubilier &amp; Rice</h3>
+          <ul>
+            <li>Examined how the capital structure of an LBO model differs from that of an M&amp;A model, given the highly levered nature of an LBO transaction.</li>
+            <li>Ran sensitivity analysis on the LBO's IRR by varying the time horizon and exit multiple with a two-factor data table in Excel.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <p class="entry-date">Jun 2024 to Present</p>
+        </div>
+        <div class="entry-body">
+          <h3>Financial Edge Training</h3>
+          <ul>
+            <li>Core modules: The Investment Banker and Private Equity.</li>
+            <li>Key concepts: Fundamentals of Accounting, M&amp;A Accounting, Financial Modelling, LBO Modelling, M&amp;A Modelling, Synergy Analysis, Debt Capacity.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
     <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>HTML</h3>
-          <p>Semantic markup and accessibility</p>
-        </div>
-        <div class="skill-card">
-          <h3>CSS</h3>
-          <p>Responsive design and animations</p>
-        </div>
-        <div class="skill-card">
-          <h3>JavaScript</h3>
-          <p>Interactivity and DOM manipulation</p>
-        </div>
-        <div class="skill-card">
-          <h3>Web Design</h3>
-          <p>UI/UX principles and best practices</p>
-        </div>
-        <div class="skill-card">
-          <h3>Git & GitHub</h3>
-          <p>Version control and collaboration</p>
-        </div>
-        <div class="skill-card">
-          <h3>Problem Solving</h3>
-          <p>Debugging and optimization</p>
-        </div>
-      </div>
+      <h2>Skills &amp; Interests</h2>
+      <dl class="skills-list">
+        <div><dt>Languages</dt><dd>English (Native), Bahasa Melayu (Fluent), Chinese (Intermediate)</dd></div>
+        <div><dt>IT Skills</dt><dd>Microsoft Office, Bloomberg, EViews</dd></div>
+        <div><dt>Volunteering</dt><dd>Member of the Rotaract Club, Kuala Lumpur. Volunteer at the Savong Foundation in Siem Reap, Cambodia.</dd></div>
+        <div><dt>Interests</dt><dd>Football (former captain of the UOM Malaysian varsity team), Poker, Cooking, Finance, Tennis, Gym, Travelling, Movies</dd></div>
+      </dl>
     </section>
 
     <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>I'd love to hear from you! Feel free to reach out through any of these channels:</p>
+      <p class="lead">I'm happy to discuss opportunities in corporate finance, venture capital and M&amp;A.</p>
       <div class="contact-links">
-        <a href="mailto:hello@example.com" class="contact-button">Email Me</a>
-        <a href="https://github.com" class="contact-button" target="_blank">GitHub</a>
-        <a href="https://linkedin.com" class="contact-button" target="_blank">LinkedIn</a>
+        <a href="mailto:jeremypoheekeong@gmail.com" class="button button-navy">Email</a>
+        <a href="tel:+447510626088" class="button button-navy">+44 7510 626088</a>
+        <a href="https://www.linkedin.com/in/jeremy-poh" class="button button-navy" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="Jeremy_Poh_CV_2025.pdf" class="button button-gold-dark" download>Download CV (PDF)</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2026 Van Gogh</p>
+      <p>&copy; 2026 Jeremy Poh</p>
     </div>
   </footer>
 
